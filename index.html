@@ -292,37 +292,62 @@
 	</div><!-- /g -->
 	
 	<!-- ========== FOOTER SECTION ========== -->
-	<section id="contact" name="contact"></section>
-	<div id="f">
-		<div class="container">
-			<div class="row">
-					<h3><b>CONTACT US</b></h3>
-					<br>
-					<div class="col-lg-4">
-						<h3><b>Send Us A Message:</b></h3>
-						<h3>onassis@blacktie.co</h3>
-						<br>
+	<section id="contato"></section>        
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+					<legend><span class="glyphicon glyphicon-envelope"></span> Contato</legend>
+					<div>
+						<strong>Entre em contato conosco!</strong><br>
+						Mande-nos um e-mail e tire suas dúvidas, conheça mais sobre nosso trabalho.<br>
+						
 					</div>
-					
-					<div class="col-lg-4">	
-						<h3><b>Call Us:</b></h3>
-						<h3>+55 3984-4389</h3>
-						<br>
-					</div>
-					
-					<div class="col-lg-4">
-						<h3><b>We Are Social</b></h3>
-						<p>
-							<a href="index.html#"><i class="icon-facebook"></i></a>
-							<a href="index.html#"><i class="icon-twitter"></i></a>
-							<a href="index.html#"><i class="icon-envelope"></i></a>
-						</p>
-						<br>
-					</div>
-				</div>
 			</div>
-		</div><!-- /container -->
-	</div><!-- /f -->
+			<!--<form method="POST" action="send.php">    
+
+				Email: <br><input type="text" name="email" size=25> <br>
+				Nome: <br><input type="text" name="name" size=25> <br>
+				Mensagem :<br> <textarea name=request  rows=8 cols=50> </textarea> <br> 
+				<input type="submit" value="Envie sua mensagem" name="submit" >
+			</form>-->
+			<div class="col-md-8">
+				<form name="form" id="contact-form" method="post">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="name"> Nome </label>
+								<input type="text" class="form-control" id="form_name" name="form_name" placeholder="Nome" required="required" />
+							</div>
+							<div class="form-group">
+								<label for="email"> E-mail </label>
+								<div class="input-group">
+									<span class="input-group-addon">
+											<span class="glyphicon glyphicon-envelope"></span>
+										</span>
+									<input type="email" class="form-control" id="form_email" name="form_email" placeholder="Email" required="required" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="assunto"> Assunto </label>
+								<input type="text" class="form-control" id="form_subject" name="form_subject" placeholder="Assunto" required="required" />
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="nome"> Mensagem </label>
+								<textarea id="msg_text" name="msg_text" class="form-control" rows="9" cols="25" required="required" placeholder="Mensagem"></textarea>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<input type="submit" name="form_submit" class="btn btn-primary pull-right" id="btnContactUs" value="Enviar Mensagem">                                        
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</p>
+
 	
 	<div id="c">
 		<div class="container">
