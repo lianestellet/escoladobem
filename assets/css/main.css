@@ -8,7 +8,7 @@
  */
 
 body {
-  background-color: #f2f2f2;
+  	background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -17,6 +17,15 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+
+/* Carousel */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+ 
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
@@ -78,7 +87,7 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {
+/*#headerwrap {
 	background: url(../img/header-bg.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
@@ -112,7 +121,7 @@ a:after {
 	font-size: 50px;
 	font-weight: 100;
 	letter-spacing: 2px;
-}
+}*/
 
 /* Portfolio Wrap */
 #portfoliowrap {
@@ -277,7 +286,7 @@ a:after {
 
 /* MENU CONF*/
 
-.menu {
+/*.menu {
 	position: fixed;
 	right: -200px;
 	width: 260px;
@@ -375,7 +384,7 @@ a:after {
 		-ms-transition: all .1s ease-in-out;
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
-}
+}*/
 
 /* Push the body after clicking the menu button */
 .body-push {
@@ -392,7 +401,7 @@ a:after {
 	left: -200px;
 }
 
-.menu,
+/*.menu,
 .body-push {
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -430,7 +439,7 @@ a:after {
 		-ms-transition: all .1s ease-in-out;
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
-}
+}*/
 
 
 /* BUTTON CONF */
