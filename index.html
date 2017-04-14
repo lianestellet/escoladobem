@@ -18,7 +18,6 @@
 
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/Chart.js"></script>
-	<script src="assets/js/modernizr.custom.js"></script>
 
 		
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -30,7 +29,7 @@
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-spy="scroll" data-offset="0" data-target="#myNavbar"><!--Scrollspy-->
+  <body data-spy="scroll" data-offset="15" data-target="#myNavbar"><!--Scrollspy-->
   <section id="home"></section>  	  
     	<!-- Menu -->
         <nav  id="myNavbar" class="navbar navbar-default navbar-fixed-top">
@@ -42,14 +41,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>                            
+                    </button>                                                             
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-default"> 
+                    <ul class="nav navbar-nav navbar-right"> 
                         <li><a href="#home" class="smoothScroll">HOME</a></li>   
                         <li><a href="#sobre" class="smoothScroll">SOBRE NÓS</a></li>
+                        <li><a href="#conselho" class="smoothScroll">CONSELHO</a></li>
                         <li><a href="#missao" class="smoothScroll">MISSÃO</a></li>
                         <li><a href="#parceiros" class="smoothScroll">PARCEIROS</a></li>
                         <li><a href="#noticias" class="smoothScroll">NOTÍCIAS</a></li>
@@ -60,7 +60,7 @@
         </nav>
 	
 	<!-- ========== HEADER SECTION ========== -->
-	
+
 	<!-- Carousel-->
 	<div class="container-fluid">
 	  <br>
@@ -77,7 +77,7 @@
 	    <div class="carousel-inner" role="listbox">
 
 	      <div class="item active">
-	        <img src="assets/img/header_bg.jpg" alt="imagem 1" width="1400" height="655">
+	        <img src="assets/img/header_bg1.jpg" alt="imagem 1" width="1400" height="605">
 	        <div class="carousel-caption">
 	          <h3>Lorem Ipsum</h3>
 	          <p>Dolor donec et nullam, diam libero fames elit tempus eleifend sed.</p>
@@ -85,7 +85,7 @@
 	      </div>
 
 	      <div class="item">
-	        <img src="assets/img/header_bg.jpg" alt="imagem 2" width="1400" height="655">
+	        <img src="assets/img/header_bg1.jpg" alt="imagem 2" width="1400" height="605">
 	        <div class="carousel-caption">
 	          <h3>Lorem Ipsum</h3>
 	          <p>Dolor donec et nullam, diam libero fames elit tempus eleifend sed.</p>
@@ -93,7 +93,7 @@
 	      </div>
 	    
 	      <div class="item">
-	        <img src="assets/img/header_bg.jpg" alt="imagem 3" width="1400" height="655">
+	        <img src="assets/img/header_bg1.jpg" alt="imagem 3" width="1400" height="605">
 	        <div class="carousel-caption">
 	          <h3 id="lorem">Lorem Ipsum</h3>
 	          <p>Dolor donec et nullam, diam libero fames elit tempus eleifend sed.</p>
@@ -101,7 +101,7 @@
 	      </div>
 
 	      <div class="item">
-	        <img src="assets/img/header_bg.jpg" alt="imagem 4" width="1400" height="655">
+	        <img src="assets/img/header_bg1.jpg" alt="imagem 4" width="1400" height="605">
 	        <div class="carousel-caption">
 	          <h3>Lorem Ipsum</h3>
 	          <p>Dolor donec et nullam, diam libero fames elit tempus eleifend sed.</p>
@@ -133,79 +133,127 @@
 		</div><!-- /container -->
 	</div><!-- /w -->
 
-	<!-- ========== SOBRE - GREY SECTION ========== -->
-	
+	<!-- ========== SOBRE - GREY SECTION ========== -->	
 	<section id="sobre"></section>		
 		<div id="g">
 			<div class="container">		
 				<div class="row">
-					<h3>SOBRE NÓS</h3>
+					<h2>SOBRE NÓS</h2>
 					<br>
 					<br>
-					<div class="col-lg-2"></div>
-					<div class="col-lg-8">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.</p>
+					<div class="col-md-2"></div>
 					<br>
 					<br>
 					</div>
-					<div class="col-lg-2"></div>
-					<div class="col-lg-3 team">
+				</div>
+				
+				<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-12">
+					<div class="col-md-2 team">
 						<img class="img-circle" src="assets/img/team01.jpg" height="90" width="90">
 						<h4>Liz Stewart</h4>
 						<h5><i>Product Manager</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						<p>
-							<a href="index.html#"><i class="icon-facebook"></i></a>
-							<a href="index.html#"><i class="icon-twitter"></i></a>
-							<a href="index.html#"><i class="icon-envelope"></i></a>
-
-						</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
 					</div>
 
-					<div class="col-lg-3 team">
+					<div class="col-md-2 team">
 						<img class="img-circle" src="assets/img/team02.jpg" height="90" width="90">
 						<h4>Brad Casey</h4>
 						<h5><i>Front-end Developer</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						<p>
-							<a href="index.html#"><i class="icon-facebook"></i></a>
-							<a href="index.html#"><i class="icon-twitter"></i></a>
-							<a href="index.html#"><i class="icon-envelope"></i></a>
-
-						</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>			
 					</div>
 
-					<div class="col-lg-3 team">
+					<div class="col-md-2 team">
 						<img class="img-circle" src="assets/img/team03.jpg" height="90" width="90">
 						<h4>Pamela Chow</h4>
 						<h5><i>Web Designer</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						<p>
-							<a href="index.html#"><i class="icon-facebook"></i></a>
-							<a href="index.html#"><i class="icon-twitter"></i></a>
-							<a href="index.html#"><i class="icon-envelope"></i></a>
-
-						</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
 					</div>
 
-					<div class="col-lg-3 team">
+					<div class="col-md-2 team">
 						<img class="img-circle" src="assets/img/team04.jpg" height="90" width="90">
 						<h4>Tim Gates</h4>
 						<h5><i>Back-end Guru</i></h5>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						<p>
-							<a href="index.html#"><i class="icon-facebook"></i></a>
-							<a href="index.html#"><i class="icon-twitter"></i></a>
-							<a href="index.html#"><i class="icon-envelope"></i></a>
-
-						</p>
 					</div>
+
+					<div class="col-md-2 team">
+						<img class="img-circle" src="assets/img/team04.jpg" height="90" width="90">
+						<h4>Tim Gates</h4>
+						<h5><i>Back-end Guru</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					</div>
+					<div class="col-md-1"></div>
 				</div>		
 			</div><!-- /container -->
 		</div><!-- /g -->	
+
+		<!-- ========== CONSELHO - GREY SECTION ========== -->	
+	<section id="conselho"></section>		
+		<div id="dg">
+			<div class="container">		
+				<div class="row">
+					<h2>CONSELHO</h2>
+					<br>
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.</p>
+					<div class="col-md-2"></div>
+					<br>
+					<br>
+					</div>
+				</div>
+				
+				<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-12">
+					<div class="col-md-2 team">
+						<img class="img-circle" src="assets/img/team01.jpg" height="90" width="90">
+						<h4>Liz Stewart</h4>
+						<h5><i>Product Manager</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
+					</div>
+
+					<div class="col-md-2 team">
+						<img class="img-circle" src="assets/img/team02.jpg" height="90" width="90">
+						<h4>Brad Casey</h4>
+						<h5><i>Front-end Developer</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>			
+					</div>
+
+					<div class="col-md-2 team">
+						<img class="img-circle" src="assets/img/team03.jpg" height="90" width="90">
+						<h4>Pamela Chow</h4>
+						<h5><i>Web Designer</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
+					</div>
+
+					<div class="col-md-2 team">
+						<img class="img-circle" src="assets/img/team04.jpg" height="90" width="90">
+						<h4>Tim Gates</h4>
+						<h5><i>Back-end Guru</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+
+					<div class="col-md-2 team">
+						<img class="img-circle" src="assets/img/team04.jpg" height="90" width="90">
+						<h4>Tim Gates</h4>
+						<h5><i>Back-end Guru</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>		
+			</div><!-- /container -->
+		</div><!-- /dg -->	
 	
 	<!-- ========== CHARTS - DARK GREY SECTION ========== -->
-	<div id="dg">
+	<div id="g">
 		<div class="container">
 			<div class="row">
 				<h3>SOME CHARTS</h3>
@@ -271,7 +319,7 @@
 				</div>			
 			</div>	
 		</div><!-- /container -->
-	</div><!-- /dg -->
+	</div><!-- /g -->
 	
 	<section id="portfolio" name="portfolio"></section>
 	<div id="portfoliowrap">
