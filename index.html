@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
 
-    <title>Onassis - Bootstrap 3 Theme</title>
+    <title>Escola do Bem</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/myStyle.css">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -29,8 +30,8 @@
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-spy="scroll" data-offset="15" data-target="#myNavbar"><!--Scrollspy-->
-  <section id="home"></section>  	  
+  <body data-spy="scroll" data-offset="25" data-target="#myNavbar"><!--Scrollspy-->
+  <section id="inicio"></section>  	  
     	<!-- Menu -->
         <nav  id="myNavbar" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -41,16 +42,19 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>                                                             
+                    </button>  
+                    <div class="row" id="logofc">
+                        <a  href="#"><img src="assets/img/logo_edb.png" width="450" height="75" alt="Escola do Bem"/></a><br/>
+                    </div>                                                           
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right"> 
-                        <li><a href="#home" class="smoothScroll">HOME</a></li>   
+                        <li><a href="#inicio" class="smoothScroll">INÍCIO</a></li>  
                         <li><a href="#sobre" class="smoothScroll">SOBRE NÓS</a></li>
+                        <li><a href="#pilares" class="smoothScroll">PILARES</a></li>
                         <li><a href="#conselho" class="smoothScroll">CONSELHO</a></li>
-                        <li><a href="#missao" class="smoothScroll">MISSÃO</a></li>
                         <li><a href="#parceiros" class="smoothScroll">PARCEIROS</a></li>
                         <li><a href="#noticias" class="smoothScroll">NOTÍCIAS</a></li>
                         <li><a href="#contato" class="smoothScroll">CONTATO</a></li>
@@ -120,269 +124,228 @@
 	    </a>
 	  </div> <!-- /.Carousel-->
 	</div> <!-- /.Container-fluid-->
-	<!-- ========== WHITE SECTION ========== -->
-	<div id="w">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-				<h3>WELCOME TO <bold>ONASSIS</bold>. <bold>A FREE BOOTSTRAP 3</bold> THEME. CRAFTED WITH LOVE BY <bold>BLACKTIE.CO</bold>. <br/>
-					<bold>IDEAL FOR</bold> AGENCIES & FREELANCERS.
-				</h3>
-				</div>
-			</div>
-		</div><!-- /container -->
-	</div><!-- /w -->
 
-	<!-- ========== SOBRE - GREY SECTION ========== -->	
-	<section id="sobre"></section>		
-		<div id="g">
-			<div class="container">		
-				<div class="row">
-					<h2>SOBRE NÓS</h2>
-					<br>
-					<br>
-					<div class="col-md-2"></div>
-					<div class="col-md-8">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.</p>
-					<div class="col-md-2"></div>
-					<br>
-					<br>
-					</div>
-				</div>
-				
-				<div class="row">
-				<div class="col-md-1"></div>
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team01.jpg" height="120" width="120">
-						<h4>Liz Stewart</h4>
-						<h5><i>Product Manager</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
-					</div>
-
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team02.jpg" height="120" width="120">
-						<h4>Brad Casey</h4>
-						<h5><i>Front-end Developer</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>			
-					</div>
-
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team03.jpg" height="120" width="120">
-						<h4>Pamela Chow</h4>
-						<h5><i>Web Designer</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
-					</div>
-
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team04.jpg" height="120" width="120">
-						<h4>Tim Gates</h4>
-						<h5><i>Back-end Guru</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team04.jpg" height="120" width="120">
-						<h4>Tim Gates</h4>
-						<h5><i>Back-end Guru</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-					<div class="col-md-1"></div>
-				</div>		
-			</div><!-- /container -->
-		</div><!-- /g -->	
-
-		<!-- ========== CONSELHO - GREY SECTION ========== -->	
-	<section id="conselho"></section>		
-		<div id="dg">
-			<div class="container">		
-				<div class="row">
-					<h2>CONSELHO</h2>
-					<br>
-					<div class="col-md-2"></div>
-					<div class="col-md-8">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.</p>
-					<div class="col-md-2"></div>
-					<br>
-					<br>
-					</div>
-				</div>
-				
-				<div class="row">
-				<div class="col-md-1"></div>
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team01.jpg" height="120" width="120">
-						<h4>Liz Stewart</h4>
-						<h5><i>Product Manager</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
-					</div>
-
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team02.jpg" height="120" width="120">
-						<h4>Brad Casey</h4>
-						<h5><i>Front-end Developer</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>			
-					</div>
-
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team03.jpg" height="120" width="120">
-						<h4>Pamela Chow</h4>
-						<h5><i>Web Designer</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
-					</div>
-
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team04.jpg" height="120" width="120">
-						<h4>Tim Gates</h4>
-						<h5><i>Back-end Guru</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-
-					<div class="col-md-2 team">
-						<img class="img-circle" src="assets/img/team04.jpg" height="120" width="120">
-						<h4>Tim Gates</h4>
-						<h5><i>Back-end Guru</i></h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-					<div class="col-md-1"></div>
-				</div>		
-			</div><!-- /container -->
-		</div><!-- /dg -->	
-	
-	<!-- ========== CHARTS - DARK GREY SECTION ========== -->
-	<div id="g">
-		<div class="container">
-			<div class="row">
-				<h3>SOME CHARTS</h3>
-				<br>
-				<br>
-				<div class="col-lg-4">
-					<canvas id="javascript" height="130" width="130"></canvas>
-					<br>
-					<h4>Javascript</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 70,
-									color:"#f85c37"
-								},
-								{
-									value : 30,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-					</script>
-
-				</div>
-				<div class="col-lg-4">
-					<canvas id="bootstrap" height="130" width="130"></canvas>
-					<br>
-					<h4>Bootstrap</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 90,
-									color:"#f85c37"
-								},
-								{
-									value : 10,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-					</script>
-				</div>
-				<div class="col-lg-4">
-					<canvas id="wordpress" height="130" width="130"></canvas>
-					<br>
-					<h4>Wordpress</h4>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 55,
-									color:"#f85c37"
-								},
-								{
-									value : 45,
-									color : "#ecf0f1"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-					</script>
-				</div>			
-			</div>	
-		</div><!-- /container -->
-	</div><!-- /g -->
-	
-	<section id="portfolio" name="portfolio"></section>
-	<div id="portfoliowrap">
-		<div class="container">
-			<div class="row">
-				<h3>COOL WORKS</h3>
-				<br>
-				<br>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work1.png"></a>
-				</div>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work2.png"></a>
-				</div>
-				<div class="col-lg-4 port-space">
-					<a href="item.html"><img src="assets/img/work3.png"></a>
-				</div>				
-			</div>	
-		</div><!-- /container -->
-	</div><!-- /portfoliowrap -->
-	
-	<!-- ========== WHITE SECTION ========== -->
-	<div id="w">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-				<h3>WE WORK HARD TO DELIVER A <bold>HIGH QUALITY SERVICE</bold>. OUR AIM IS YOUR COMPLETE <bold>SATISFACTION</bold>.
-				</h3>
-				</div>
-			</div>
-		</div><!-- /container -->
-	</div><!-- /w -->
-	
-	<!-- ========== SERVICES - GREY SECTION ========== -->
-		
-		<div id="g">
+	<!-- ========== SOBRE - BLUE SECTION ========== -->
+		<section id="sobre"></section>
+		<div class="b">
 			<div class="container">
 				<div class="row">
-					<h2>SERVICES</h2>
+					<h2><b>Sobre Nós</b></h2>
 					<br>
 					<br>
-					<div class="col-lg-3">
-						<img src="assets/img/s1.png">
-						<h4>London</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+					<div class="col-lg-1"></div>
+					<div class="col-lg-2 team">
+						<img src="assets/img/conselho/MarcelaSamara.png" height="150" width="150">
+						<h4>Marcela Samara</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>							
+					<div class="col-lg-2 team">
+						<img src="assets/img/conselho/MarianaVieira.png" height="150" width="150">
+						<h4>Mariana Vieira</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
-					<div class="col-lg-3">
-						<img src="assets/img/s2.png">
-						<h4>Berlin</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+					<div class="col-lg-2 team">
+						<img src="assets/img/conselho/NatáliaMelo.png" height="150" width="150">
+						<h4>Natália Melo</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
-					<div class="col-lg-3">
-						<img src="assets/img/s3.png">
-						<h4>Paris</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+					<div class="col-lg-2 team">
+						<img src="assets/img/conselho/PabloStellet.png" height="150" width="150">
+						<h4>Pablo Stellet</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
-					<div class="col-lg-3">
-						<img src="assets/img/s4.png">
-						<h4>Tokyo</h4>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+					<div class="col-lg-2 team">
+						<img src="assets/img/conselho/RenataVilar.png" height="150" width="150">
+						<h4>Renata Vilar</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
+					<div class="col-lg-1"></div>
 				</div>
 			</div><!-- /container -->
+	</div><!-- /b -->
+
+	<!-- ========== PILARES - GREY SECTION ========== -->	
+	<section id="pilares"></section>
+	<div class="g">
+		<div class="container">			
+				
+				<div class="row">
+				<h2><b>Nossos Pilares</b></h2>
+				<br/>
+				<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.</p>				
+					</div>	
+				<div class="col-md-2"></div>
+				</div>
+				<div class="row">
+				<div class="col-md-1"></div>
+					<div class="col-md-2">
+						<img src="assets/img/pilares/emocional_icon3.png" height="100" width="100">
+						<br/><br/>
+						<h4>Emocional</h4>						
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
+					</div>
+
+					<div class="col-md-2">
+						<img src="assets/img/pilares/espiritual_icon3.png" height="100" width="100">
+						<br/><br/>
+						<h4>Espiritual</h4>						
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>			
+					</div>
+
+					<div class="col-md-2">
+						<img src="assets/img/pilares/fisica_icon1.png" height="100" width="100">
+						<br/><br/>
+						<h4>Física</h4>							
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
+					</div>
+
+					<div class="col-md-2">
+						<img src="assets/img/pilares/intelectual_icon3.png" height="100" width="100">
+						<br/><br/>
+						<h4>Intelectual</h4>						
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+
+					<div class="col-md-2">
+						<img src="assets/img/pilares/social_icon3.png" height="100" width="100">
+						<br/><br/>
+						<h4>Social</h4>					
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div>
+					<div class="col-md-1"></div>
+				</div>					
+			</div><!-- /container -->		
 	</div><!-- /g -->
+
+	<!-- ========== CONSELHO - BLUE SECTION ========== -->	
+	<section id="conselho"></section>		
+		<div class="b">
+			<div class="container">					
+				<div class="row">
+				<h2><b>Conselho</b></h2>
+				<br/>
+				<div class="col-md-1"></div>
+					<div class="col-md-2 team">
+						<img class="" src="assets/img/conselho/CamilaVidal.png" height="150" width="150">
+						<h4>Camila Vidal</h4>
+						<h5><i>Product Manager</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>										
+					</div>
+
+					<div class="col-md-2 team">
+						<img class="" src="assets/img/conselho/KatyCavalcanti.png" height="150" width="150">
+						<h4>Katy Cavalcanti</h4>
+						<h5><i>Front-end Developer</i></h5>	
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>								
+					</div>
+
+					<div class="col-md-2 team">
+						<img class="" src="assets/img/conselho/KessJones.png" height="150" width="150">
+						<h4>Kess Jones</h4>
+						<h5><i>Web Designer</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>										
+					</div>
+
+					<div class="col-md-2 team">
+						<img class="" src="assets/img/conselho/KethellynSoares.png" height="150" width="150">
+						<h4>Kethellyn Soares</h4>
+						<h5><i>Back-end Guru</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
+					</div>
+
+					<div class="col-md-2 team">
+						<img class="" src="assets/img/conselho/LuanaMoreira.png" height="150" width="150">
+						<h4>Luana Moreira</h4>
+						<h5><i>Back-end Guru</i></h5>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>						
+					</div>
+				</div>				
+			</div><!-- /container -->
+		</div><!-- /b -->	
+
+		<!-- ========== CONSELHO - GREY SECTION ========== -->	
+		<section id="parceiros"></section>		
+			<div class="g">
+			<div class="container">
+			  <h2><b>Nossos Parceiros</b></h2>
+			  <br/><br/>
+			  <div class="row">
+			    <div class="col-sm-4">
+			      <span class="glyphicon glyphicon-off logo-small"></span>
+			      <h4>POWER</h4>
+			      <p>Lorem ipsum dolor sit amet..</p>
+			    </div>
+			    <div class="col-sm-4">
+			      <span class="glyphicon glyphicon-heart logo-small"></span>
+			      <h4>LOVE</h4>
+			      <p>Lorem ipsum dolor sit amet..</p>
+			    </div>
+			    <div class="col-sm-4">
+			      <span class="glyphicon glyphicon-lock logo-small"></span>
+			      <h4>JOB DONE</h4>
+			      <p>Lorem ipsum dolor sit amet..</p>
+			    </div>
+			  </div>
+			  <br><br>
+			  <div class="row">
+			    <div class="col-sm-4">
+			      <span class="glyphicon glyphicon-leaf logo-small"></span>
+			      <h4>GREEN</h4>
+			      <p>Lorem ipsum dolor sit amet..</p>
+			    </div>
+			    <div class="col-sm-4">
+			      <span class="glyphicon glyphicon-certificate logo-small"></span>
+			      <h4>CERTIFIED</h4>
+			      <p>Lorem ipsum dolor sit amet..</p>
+			    </div>
+			    <div class="col-sm-4">
+			      <span class="glyphicon glyphicon-wrench logo-small"></span>
+			      <h4>HARD WORK</h4>
+			      <p>Lorem ipsum dolor sit amet..</p>
+			    </div>
+			  </div>
+			</div><!-- /container -->
+			</div><!-- /g -->	
+
+
+			<!-- ========== NOTÍCIAS - BLUE SECTION ========== -->
+			<section id="noticias"></section>
+			<div class="b">
+			<div class="container-fluid">
+			  <h2><b>Notícias</b></h2>
+			  <br/><br/>
+			  <h4>What we have created</h4>
+			  <div class="row text-center">
+			    <div class="col-sm-4">
+			      <div class="thumbnail">
+			        <img src="assets/img/paris.jpg" alt="Paris" width="400" height="300">
+			        <p><strong>Paris</strong></p>
+			        <p>Yes, we built Paris</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-4">
+			      <div class="thumbnail">
+			        <img src="assets/img/newyork.jpg" alt="New York" width="400" height="300">
+			        <p><strong>New York</strong></p>
+			        <p>We built New York</p>
+			      </div>
+			    </div>
+			    <div class="col-sm-4">
+			      <div class="thumbnail">
+			        <img src="assets/img/sanfran.jpg" alt="San Francisco" width="400" height="300">
+			        <p><strong>San Francisco</strong></p>
+			        <p>Yes, San Fran is ours</p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			</div><!-- /b -->		
+		
 	
-	<!-- ========== FOOTER SECTION ========== -->
-	<section id="contato"></section>        
+	<!-- ========== CONTATO - GREY SECTION ========== -->
+	<section id="contato"></section>       
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
