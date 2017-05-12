@@ -26,6 +26,7 @@ body {
     color: #333;
 }*/
 
+
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
@@ -203,14 +204,23 @@ a:after {
 /* Copyright Wrap */
 
 #c {
-	background: #222222;
+	background: #305B6F;
 	padding-top: 15px;
 	text-align: right;
 }
 
 #c p {
-	color: white
+	/*color: #222222;*/	
+	color: #fff;
+	text-align: center;
 }
+
+#c h5{
+	color: #f85c37;
+	text-align: center;
+}
+
+
 
 
 /* item Wrap */
@@ -573,3 +583,42 @@ h4{
 	color: #275974;
 
 }
+
+.multi-item-carousel{
+	
+  .carousel-inner{
+    > .item{
+      transition: 800ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+
